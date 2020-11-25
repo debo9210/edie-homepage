@@ -16,80 +16,337 @@
       href="https://devchallenges.io/"
     />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
-    <title>Devchallenges</title>
+    <link rel="stylesheet" href="styles.css">
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
+    <title>Edei |  HomePage</title>
 
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    <nav class="navbar">
+      <a href="#" class="navbar-brand">edie</a>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
+      <span class="material-icons navbar-menu-mobile">
+        menu
+      </span>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#heading" class="nav-link">home</a>
         </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
+        <li class="nav-item">
+          <a href="#services" class="nav-link">services</a>
+        </li>
+        <li class="nav-item">
+          <a href="#design-types" class="nav-link">our works</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">clients</a>
+        </li>
+        <li class="nav-item">
+          <a href="#footer-section" class="nav-link">contact</a>
         </li>
       </ul>
+    </nav>
+
+    <div class="mobile-nav-container">
+      <div class="mobile-nav">
+        <ul class="">
+          <li class="nav-item">
+            <a href="#heading" class="mobile-link">home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="mobile-link">services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#design-types" class="mobile-link">our works</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="mobile-link">clients</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer-section" class="mobile-link">contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
+
+
+    <header class="main-heading" id="heading">
+      <p class="small-heading-text">
+        Unhappy with your website?
+      </p>
+      <h1 class="heading-text">
+        We create beautiful and fast web services
+      </h1>
+    </header>
+
+    <main class="main-area">
+      <div class="main-area-image">
+        <img class="hero-image" src="images/heroImage.jpg" alt="hero">
+      </div>
+
+      <div class="main-area-action">
+        <h2 class="main-area-intro">
+          Story, emotion and purpose
+        </h2>
+  
+        <p class="main-area-text">
+          We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.
+        </p>
+  
+        <p class="call-to-action-text">
+          Want us to contact you?
+        </p>
+  
+        <div class="call-to-action">
+          <input type="email" class="email-input" placeholder="Email">
+          <button type="button" class="btn">Join</button>
+        </div>
+      </div>
+    </main>
+
+    <section id="services">
+      <h3 class="service-intro">
+        We offer high demand services  
+      </h3>
+
+      <div class="services-card-div">
+        <div class="services-card">
+          <span class="material-icons edit">
+            edit
+          </span>
+
+          <h4 class="card-title">
+            UI/UX Design
+          </h4>
+
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+          </p>
+
+          <button type="button" class="card-btn">
+            Get started
+          </button>
+        </div>
+
+        <div class="services-card">
+          <span class="material-icons code">
+            code
+          </span>
+
+          <h4 class="card-title">
+            Front End
+          </h4>
+
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+          </p>
+
+          <button type="button" class="card-btn">
+            Get started
+          </button>
+        </div>
+
+        <div class="services-card">
+          <span class="material-icons storage">
+            storage
+          </span>
+
+          <h4 class="card-title">
+            Back End
+          </h4>
+
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+          </p>
+
+          <button type="button" class="card-btn" id='btn3'>
+            Get started
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="design-types">
+      <h3 class="design-intro">
+        Good design means good business
+      </h3>
+
+      <div class="designs-card-div designs-card-div-top">
+        <div class="designs-card first-design">
+          <img src="images/smarthome.jpg" alt="first design" class="design-image">
+          <small class="design-type">
+            Full stack application
+          </small>
+          <p class="design-title">
+            Smart home dashboard
+          </p>
+        </div>
+
+        <div class="designs-card">
+          <img src="images/onboard.png" alt="second design" class="design-image">
+          <small class="design-type">
+            UX/UI design
+          </small>
+          <p class="design-title">
+            Onboard application
+          </p>
+        </div>
+      </div>
+
+
+      <div class="designs-card-div">
+        <div class="designs-card first-design">
+          <img src="images/booking.png" alt="third design" class="design-image">
+          <small class="design-type">
+            Mobile application
+          </small>
+          <p class="design-title">
+            Booking system
+          </p>
+        </div>
+
+        <div class="designs-card">
+          <img src="images/juice-product.png" alt="fourth design" class="design-image">
+          <small class="design-type">
+            Front End application
+          </small>
+          <p class="design-title">
+            Juice product homepage
+          </p>
+        </div>
+      </div>
+
+      <a href="#" class="see-more">
+        <span class="link-text">see more</span>
+        <span class="material-icons arrow-right">
+          arrow_right_alt
+        </span>
+      </a>
+    </section>
+
+    <section id="teams-section">
+      <div class="team">
+        <div class="team-about">
+          <p class="team-title">
+            Meet the team
+          </p>
+          <h3 class="team-intro">
+            We are chilled and a laidback team
+          </h3>
+          <p class="team-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+  
+        <div class="team-image">
+          <div class="lady-image">
+            <!-- <img src="images/person3.png" alt="person 3" class="first-image"> -->
+          </div>
+  
+          <div class="men-image">
+            <!-- <img src="images/person1.png" alt="person 1" class="second-image">
+            <img src="images/person2.png" alt="person 2" class="third-image"> -->
+
+            <div class="person1-img"></div>
+            <div class="person2-img"></div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="team-explanation">
+        <h3 class="team-explanation-text">
+          “Fast and outstanding results. Edie understands their customer’s needs. They have a young and talented team”  
+        </h3>
+
+        <div class="team-lead">
+          <!-- <img src="images/person4.png" alt="person 4" class="fourth-image"> -->
+
+          <div class="person4-img"></div>
+
+          <div class="team-lead-intro">
+            <p class="team-lead-name">
+              Carlos Tran
+            </p>
+            <p class="team-lead-title">
+              The Decorate Gatsby
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer-section">
+      <div class="Footer">
+        <ul class="footer-nav">
+          <li class="footer-link-item">
+            <a href="#heading" class="footer-links">
+              Home
+            </a>
+          </li>
+          <li class="footer-link-item">
+            <a href="#services" class="footer-links">
+              Services
+            </a>
+          </li>
+          <li class="footer-link-item">
+            <a href="#design-types" class="footer-links">
+              Our Works
+            </a>
+          </li>
+          <li class="footer-link-item">
+            <a href="#" class="footer-links">
+              Clients
+            </a>
+          </li>
+          <li class="footer-link-item">
+            <a href="#footer-section" class="footer-links">
+              Contact
+            </a>
+          </li>
+        </ul>
+  
+        <div class="footer-contact">
+          <a href="#heading" class="footer-brand">
+            Edie
+          </a>
+          <div class="footer-socials">
+            <a href="https://instagram.com" target="_blank">
+              <img class="socials" src="images/instagram.svg" alt="instagram icon">
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+              <img class="socials" src="images/linkedin.svg" alt="linkedin icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <img class="socials" src="images/twitter.svg" alt="twitter icon">
+            </a>
+          </div>
+        </div>
+  
+        <div class="footer-call-to-action">
+          <p class="call-to-action-text">
+            <span class="footer-call-to-action-text">
+              Want us to contact you?
+            </span>
+          </p>
+    
+          <div class="call-to-action">
+            <input type="email" class="email-input">
+            <button type="button" class="btn">Join</button>
+          </div>
+        </div>
+      </div>
+
+      <p class="copyright">
+        debo9210 @ DevChallenges.io
+      </p>
+    </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
